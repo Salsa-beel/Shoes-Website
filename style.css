@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    width:100%;
+    height: 100vh;
+    background-image: url(images/nike.jpg);
+    background-size: cover;
+    background-position: center;
+     
+}
+
+section nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 6) ;
+    background: rgba(255, 255, 255, 0.605);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+section nav .logo{
+    font-size: 35px;
+    color: rgb(20, 4, 16);
+    margin: 5px 0;
+    cursor: pointer;
+    position: relative;
+    left: -4%;
+}
+
+section nav .logo span{
+
+    color:rgb(235, 20, 131);
+    text-decoration: underline;
+}
+
+section nav ul{
+    list-style: none;
+
+}
+
+section nav ul li{
+    display: inline-block;
+    margin: 5px 15px;
+
+}
+
+section nav ul li a {
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+
+section nav ul li a:hover {
+    color: blueviolet;
+
+}
+
+section nav .icons i {
+
+    margin: 0 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+section nav .icons i:hover{
+    color: blueviolet;
+} 
+
+section .main .main_content{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+    color: aliceblue;
+}
+
+section .main .main_content .main_text h1{
+    font-size: 90px;
+    line-height:  70px; 
+    color: aliceblue;
+    font-family: pyxidium quick;
+    background: linear-gradient(to right,rgb(191, 25, 166),rgb(24, 17, 220));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    position: relative;
+}
