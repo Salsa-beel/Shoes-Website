@@ -33,7 +33,9 @@ section nav{
 
 section nav .logo{
     font-size: 35px;
-    color: rgb(20, 4, 16);
+    background: linear-gradient(to right,rgb(191, 25, 166),rgb(24, 17, 220));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
     margin: 5px 0;
     cursor: pointer;
     position: relative;
@@ -97,4 +99,25 @@ section .main .main_content .main_text h1{
     -webkit-background-clip: text;
     -webkit-text-fill-color:transparent;
     position: relative;
+    top: 95px;
+    left: 5%;
+}
+
+section .main .main_content .main_text h1 span{
+
+    font-size: 70px;
+    background: linear-gradient(to right,rgb(191, 25, 166),rgb(24, 17, 220));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+
+}
+
+section .main .main_content .main_text p{
+
+    width: 600px;
+    text-align: justify;
+    line-height: 21px;
+    position: relative;
+    top: 85px;
+    left: 5%;
 }
