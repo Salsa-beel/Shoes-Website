@@ -195,4 +195,20 @@ section .main .button:hover i{
     align-items: center;
     justify-content: center;
     text-transform: uppercase;
+    background: linear-gradient(to right,rgb(110, 44, 233),rgb(243, 61, 221));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+
+}
+
+.products .box{
+    width:90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 25px 0;
+}
+
+.products .box .card .image img{
+    width: 150px;
 }
