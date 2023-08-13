@@ -209,6 +209,26 @@ section .main .button:hover i{
     grid-gap: 25px 0;
 }
 
+.products .box .card{
+    width: 230px;
+    height: 440px;
+    box-shadow: 0 0 5px rgba(10, 14, 254, 0.369);
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 10px;
+    padding-bottom: 0px;
+    padding-top: 15px ;
+   
+    
+
+}
+
+.products .box .card .products_text{
+
+    padding-top: 15px;
+
+}
+
 .products .box .card .image img{
-    width: 150px;
+    width: 90%;
 }
